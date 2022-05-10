@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e6dbb8298e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+
+    <title>ContactList
+    </title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="search">
+            <i class="fa fa-search"></i>
+            <input type="text" placeholder="search...">
+            <i class="fa fa-microphone"></i>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+    
+        </div>
+        <h4>Today</h4>
+
+        <div class="contacts">
+               <div class="phone">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIgAAACICAMAAAALZFNgAAAAMFBMVEXk5ueutLeqsLPV2Nnn6erh4+S2u77KztDa3d66v8Kxt7rS1dfP0tTe4OK+w8XFycsCp3H9AAADAklEQVR4nO2ay9arIAxGJQQVr+//tkdt/1N7kyT1ox2wJ10duVcIt4SqKhQKhUKhUCgUCoVC4RHmbxtUi8Hoh4W+Ddu/L2mMTezoj3rqv6LC1VCTu4Mo+tzDxFXTPWhciG1WE25fa6xhmUJGlfmdxsaQzeQxOR6D0uTRCN2hxjY8OWIypjRymSTjsZnMaA2OEo81T7Ax4eP5ssdDRbxUw7kOGRIWJch1cGacCTfigVkZYSLpFeQO2BxWBgQYEp2Gc6AsYcWUuQIam0nrQT3EhNUBAaVrq0zVhToAPHjWR8S1CBF1iqxJAhAJtUEEMYGVy+qFCBBpDR6u/hURxFnAMHsdZG39HRGLB0JEco14ApEj469MX8uChtn1hDeaPYS4j1s2PYJseoN+/naYU6teJEI8WJ+tmAuw+jbhCHFAWwjagCBWkRVpSeI/mEN8pd5uOpCG9tgKWc2ujJp0rWEauolD2Bq0eC0BF9FYnK+IY/OdiZcNTgday3YmsjSBewhNfI4aOPcJE+oydUrYHx5fCVKMeG0S4vug5GqSXFX6Nz0bijkbWKtJ1T+PD7mIrcC/UfET0S0uRF2Tt7O4c+FxmKZ6IU5zH77ZEWe+fP3v90sKofX90GwMvW9DlVlnNRjm6GifIpd/9Tz4McurheUTfq47R28b0MvGO/UBK8PcNtEJthqieoY9E1gtJBK30Ewe8HyCuRfF4t6lbk5Wefs4Ih2WeTxPhYNqTB6ZzlpvebBF48Z8xgBxm3gbIeLjuxZX0wkabi3ZfKRy8HJGzSf3HMVLgDQUrZlyeCC00BmnTzgjS++x3DLYVPJOYOi/yi+5OhN1yiLisZloYwLyWEx0eWKou4tRzJ1T148n5CUtS9Vdg7j8qi7sKhGniaH3rkNWTpIWpz5A1qk3NCH0CBpKGQLiRL2+LAGRNFBUVW67SHLPMb2bMZBc1UzdXQPJ/qftKYJBJDE26NX9RqJWr+6W2TkeGc2D1Q85ThL0frfj+Kg2UjaOszX4bODe/xYKhUKh8JJ/uEQizZPNHb4AAAAASUVORK5CYII=" alt="profile">
+
+                <div class="number">
+                    <input type="text" placeholder="0715886876">
+                    <span>  <i class="fa-solid fa-circle-info" ></i></span>
+                </div>
+                </div>
+
+                <div class="phone">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIgAAACICAMAAAALZFNgAAAAMFBMVEXk5ueutLeqsLPV2Nnn6erh4+S2u77KztDa3d66v8Kxt7rS1dfP0tTe4OK+w8XFycsCp3H9AAADAklEQVR4nO2ay9arIAxGJQQVr+//tkdt/1N7kyT1ox2wJ10duVcIt4SqKhQKhUKhUCgUCoVC4RHmbxtUi8Hoh4W+Ddu/L2mMTezoj3rqv6LC1VCTu4Mo+tzDxFXTPWhciG1WE25fa6xhmUJGlfmdxsaQzeQxOR6D0uTRCN2hxjY8OWIypjRymSTjsZnMaA2OEo81T7Ax4eP5ssdDRbxUw7kOGRIWJch1cGacCTfigVkZYSLpFeQO2BxWBgQYEp2Gc6AsYcWUuQIam0nrQT3EhNUBAaVrq0zVhToAPHjWR8S1CBF1iqxJAhAJtUEEMYGVy+qFCBBpDR6u/hURxFnAMHsdZG39HRGLB0JEco14ApEj469MX8uChtn1hDeaPYS4j1s2PYJseoN+/naYU6teJEI8WJ+tmAuw+jbhCHFAWwjagCBWkRVpSeI/mEN8pd5uOpCG9tgKWc2ujJp0rWEauolD2Bq0eC0BF9FYnK+IY/OdiZcNTgday3YmsjSBewhNfI4aOPcJE+oydUrYHx5fCVKMeG0S4vug5GqSXFX6Nz0bijkbWKtJ1T+PD7mIrcC/UfET0S0uRF2Tt7O4c+FxmKZ6IU5zH77ZEWe+fP3v90sKofX90GwMvW9DlVlnNRjm6GifIpd/9Tz4McurheUTfq47R28b0MvGO/UBK8PcNtEJthqieoY9E1gtJBK30Ewe8HyCuRfF4t6lbk5Wefs4Ih2WeTxPhYNqTB6ZzlpvebBF48Z8xgBxm3gbIeLjuxZX0wkabi3ZfKRy8HJGzSf3HMVLgDQUrZlyeCC00BmnTzgjS++x3DLYVPJOYOi/yi+5OhN1yiLisZloYwLyWEx0eWKou4tRzJ1T148n5CUtS9Vdg7j8qi7sKhGniaH3rkNWTpIWpz5A1qk3NCH0CBpKGQLiRL2+LAGRNFBUVW67SHLPMb2bMZBc1UzdXQPJ/qftKYJBJDE26NX9RqJWr+6W2TkeGc2D1Q85ThL0frfj+Kg2UjaOszX4bODe/xYKhUKh8JJ/uEQizZPNHb4AAAAASUVORK5CYII=" alt="profile">
+                    <div>
+                        <input type="text" placeholder="0715886876">
+                       <span>  <i class="fa-solid fa-circle-info" ></i></span>
+                    </div>
+                </div>
+
+                <div class="phone">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIgAAACICAMAAAALZFNgAAAAMFBMVEXk5ueutLeqsLPV2Nnn6erh4+S2u77KztDa3d66v8Kxt7rS1dfP0tTe4OK+w8XFycsCp3H9AAADAklEQVR4nO2ay9arIAxGJQQVr+//tkdt/1N7kyT1ox2wJ10duVcIt4SqKhQKhUKhUCgUCoVC4RHmbxtUi8Hoh4W+Ddu/L2mMTezoj3rqv6LC1VCTu4Mo+tzDxFXTPWhciG1WE25fa6xhmUJGlfmdxsaQzeQxOR6D0uTRCN2hxjY8OWIypjRymSTjsZnMaA2OEo81T7Ax4eP5ssdDRbxUw7kOGRIWJch1cGacCTfigVkZYSLpFeQO2BxWBgQYEp2Gc6AsYcWUuQIam0nrQT3EhNUBAaVrq0zVhToAPHjWR8S1CBF1iqxJAhAJtUEEMYGVy+qFCBBpDR6u/hURxFnAMHsdZG39HRGLB0JEco14ApEj469MX8uChtn1hDeaPYS4j1s2PYJseoN+/naYU6teJEI8WJ+tmAuw+jbhCHFAWwjagCBWkRVpSeI/mEN8pd5uOpCG9tgKWc2ujJp0rWEauolD2Bq0eC0BF9FYnK+IY/OdiZcNTgday3YmsjSBewhNfI4aOPcJE+oydUrYHx5fCVKMeG0S4vug5GqSXFX6Nz0bijkbWKtJ1T+PD7mIrcC/UfET0S0uRF2Tt7O4c+FxmKZ6IU5zH77ZEWe+fP3v90sKofX90GwMvW9DlVlnNRjm6GifIpd/9Tz4McurheUTfq47R28b0MvGO/UBK8PcNtEJthqieoY9E1gtJBK30Ewe8HyCuRfF4t6lbk5Wefs4Ih2WeTxPhYNqTB6ZzlpvebBF48Z8xgBxm3gbIeLjuxZX0wkabi3ZfKRy8HJGzSf3HMVLgDQUrZlyeCC00BmnTzgjS++x3DLYVPJOYOi/yi+5OhN1yiLisZloYwLyWEx0eWKou4tRzJ1T148n5CUtS9Vdg7j8qi7sKhGniaH3rkNWTpIWpz5A1qk3NCH0CBpKGQLiRL2+LAGRNFBUVW67SHLPMb2bMZBc1UzdXQPJ/qftKYJBJDE26NX9RqJWr+6W2TkeGc2D1Q85ThL0frfj+Kg2UjaOszX4bODe/xYKhUKh8JJ/uEQizZPNHb4AAAAASUVORK5CYII=" alt="profile">
+                    <div>
+                        <input type="text" placeholder="0715886876">
+                        <span>  <i class="fa-solid fa-circle-info" ></i></span>
+                    </div>
+                </div>
+
+
+                <div class="phone">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIgAAACICAMAAAALZFNgAAAAMFBMVEXk5ueutLeqsLPV2Nnn6erh4+S2u77KztDa3d66v8Kxt7rS1dfP0tTe4OK+w8XFycsCp3H9AAADAklEQVR4nO2ay9arIAxGJQQVr+//tkdt/1N7kyT1ox2wJ10duVcIt4SqKhQKhUKhUCgUCoVC4RHmbxtUi8Hoh4W+Ddu/L2mMTezoj3rqv6LC1VCTu4Mo+tzDxFXTPWhciG1WE25fa6xhmUJGlfmdxsaQzeQxOR6D0uTRCN2hxjY8OWIypjRymSTjsZnMaA2OEo81T7Ax4eP5ssdDRbxUw7kOGRIWJch1cGacCTfigVkZYSLpFeQO2BxWBgQYEp2Gc6AsYcWUuQIam0nrQT3EhNUBAaVrq0zVhToAPHjWR8S1CBF1iqxJAhAJtUEEMYGVy+qFCBBpDR6u/hURxFnAMHsdZG39HRGLB0JEco14ApEj469MX8uChtn1hDeaPYS4j1s2PYJseoN+/naYU6teJEI8WJ+tmAuw+jbhCHFAWwjagCBWkRVpSeI/mEN8pd5uOpCG9tgKWc2ujJp0rWEauolD2Bq0eC0BF9FYnK+IY/OdiZcNTgday3YmsjSBewhNfI4aOPcJE+oydUrYHx5fCVKMeG0S4vug5GqSXFX6Nz0bijkbWKtJ1T+PD7mIrcC/UfET0S0uRF2Tt7O4c+FxmKZ6IU5zH77ZEWe+fP3v90sKofX90GwMvW9DlVlnNRjm6GifIpd/9Tz4McurheUTfq47R28b0MvGO/UBK8PcNtEJthqieoY9E1gtJBK30Ewe8HyCuRfF4t6lbk5Wefs4Ih2WeTxPhYNqTB6ZzlpvebBF48Z8xgBxm3gbIeLjuxZX0wkabi3ZfKRy8HJGzSf3HMVLgDQUrZlyeCC00BmnTzgjS++x3DLYVPJOYOi/yi+5OhN1yiLisZloYwLyWEx0eWKou4tRzJ1T148n5CUtS9Vdg7j8qi7sKhGniaH3rkNWTpIWpz5A1qk3NCH0CBpKGQLiRL2+LAGRNFBUVW67SHLPMb2bMZBc1UzdXQPJ/qftKYJBJDE26NX9RqJWr+6W2TkeGc2D1Q85ThL0frfj+Kg2UjaOszX4bODe/xYKhUKh8JJ/uEQizZPNHb4AAAAASUVORK5CYII=" alt="profile">
+                    <div>
+                        <input type="text" placeholder="0715886876">
+                        <span>  <i class="fa-solid fa-circle-info" ></i></span>
+                    </div>
+                </div>
+
+
+                <div class="phone">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIgAAACICAMAAAALZFNgAAAAMFBMVEXk5ueutLeqsLPV2Nnn6erh4+S2u77KztDa3d66v8Kxt7rS1dfP0tTe4OK+w8XFycsCp3H9AAADAklEQVR4nO2ay9arIAxGJQQVr+//tkdt/1N7kyT1ox2wJ10duVcIt4SqKhQKhUKhUCgUCoVC4RHmbxtUi8Hoh4W+Ddu/L2mMTezoj3rqv6LC1VCTu4Mo+tzDxFXTPWhciG1WE25fa6xhmUJGlfmdxsaQzeQxOR6D0uTRCN2hxjY8OWIypjRymSTjsZnMaA2OEo81T7Ax4eP5ssdDRbxUw7kOGRIWJch1cGacCTfigVkZYSLpFeQO2BxWBgQYEp2Gc6AsYcWUuQIam0nrQT3EhNUBAaVrq0zVhToAPHjWR8S1CBF1iqxJAhAJtUEEMYGVy+qFCBBpDR6u/hURxFnAMHsdZG39HRGLB0JEco14ApEj469MX8uChtn1hDeaPYS4j1s2PYJseoN+/naYU6teJEI8WJ+tmAuw+jbhCHFAWwjagCBWkRVpSeI/mEN8pd5uOpCG9tgKWc2ujJp0rWEauolD2Bq0eC0BF9FYnK+IY/OdiZcNTgday3YmsjSBewhNfI4aOPcJE+oydUrYHx5fCVKMeG0S4vug5GqSXFX6Nz0bijkbWKtJ1T+PD7mIrcC/UfET0S0uRF2Tt7O4c+FxmKZ6IU5zH77ZEWe+fP3v90sKofX90GwMvW9DlVlnNRjm6GifIpd/9Tz4McurheUTfq47R28b0MvGO/UBK8PcNtEJthqieoY9E1gtJBK30Ewe8HyCuRfF4t6lbk5Wefs4Ih2WeTxPhYNqTB6ZzlpvebBF48Z8xgBxm3gbIeLjuxZX0wkabi3ZfKRy8HJGzSf3HMVLgDQUrZlyeCC00BmnTzgjS++x3DLYVPJOYOi/yi+5OhN1yiLisZloYwLyWEx0eWKou4tRzJ1T148n5CUtS9Vdg7j8qi7sKhGniaH3rkNWTpIWpz5A1qk3NCH0CBpKGQLiRL2+LAGRNFBUVW67SHLPMb2bMZBc1UzdXQPJ/qftKYJBJDE26NX9RqJWr+6W2TkeGc2D1Q85ThL0frfj+Kg2UjaOszX4bODe/xYKhUKh8JJ/uEQizZPNHb4AAAAASUVORK5CYII=" alt="profile">
+                    <div>
+                        <input type="text" placeholder="0715886876">
+                        <span>  <i class="fa-solid fa-circle-info" ></i></span>
+                    </div>
+                </div>
+
+
+                <div class="phone">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIgAAACICAMAAAALZFNgAAAAMFBMVEXk5ueutLeqsLPV2Nnn6erh4+S2u77KztDa3d66v8Kxt7rS1dfP0tTe4OK+w8XFycsCp3H9AAADAklEQVR4nO2ay9arIAxGJQQVr+//tkdt/1N7kyT1ox2wJ10duVcIt4SqKhQKhUKhUCgUCoVC4RHmbxtUi8Hoh4W+Ddu/L2mMTezoj3rqv6LC1VCTu4Mo+tzDxFXTPWhciG1WE25fa6xhmUJGlfmdxsaQzeQxOR6D0uTRCN2hxjY8OWIypjRymSTjsZnMaA2OEo81T7Ax4eP5ssdDRbxUw7kOGRIWJch1cGacCTfigVkZYSLpFeQO2BxWBgQYEp2Gc6AsYcWUuQIam0nrQT3EhNUBAaVrq0zVhToAPHjWR8S1CBF1iqxJAhAJtUEEMYGVy+qFCBBpDR6u/hURxFnAMHsdZG39HRGLB0JEco14ApEj469MX8uChtn1hDeaPYS4j1s2PYJseoN+/naYU6teJEI8WJ+tmAuw+jbhCHFAWwjagCBWkRVpSeI/mEN8pd5uOpCG9tgKWc2ujJp0rWEauolD2Bq0eC0BF9FYnK+IY/OdiZcNTgday3YmsjSBewhNfI4aOPcJE+oydUrYHx5fCVKMeG0S4vug5GqSXFX6Nz0bijkbWKtJ1T+PD7mIrcC/UfET0S0uRF2Tt7O4c+FxmKZ6IU5zH77ZEWe+fP3v90sKofX90GwMvW9DlVlnNRjm6GifIpd/9Tz4McurheUTfq47R28b0MvGO/UBK8PcNtEJthqieoY9E1gtJBK30Ewe8HyCuRfF4t6lbk5Wefs4Ih2WeTxPhYNqTB6ZzlpvebBF48Z8xgBxm3gbIeLjuxZX0wkabi3ZfKRy8HJGzSf3HMVLgDQUrZlyeCC00BmnTzgjS++x3DLYVPJOYOi/yi+5OhN1yiLisZloYwLyWEx0eWKou4tRzJ1T148n5CUtS9Vdg7j8qi7sKhGniaH3rkNWTpIWpz5A1qk3NCH0CBpKGQLiRL2+LAGRNFBUVW67SHLPMb2bMZBc1UzdXQPJ/qftKYJBJDE26NX9RqJWr+6W2TkeGc2D1Q85ThL0frfj+Kg2UjaOszX4bODe/xYKhUKh8JJ/uEQizZPNHb4AAAAASUVORK5CYII=" alt="profile">
+                    <div>
+                        <input type="text" placeholder="0715886876">
+                        <span>  <i class="fa-solid fa-circle-info" ></i></span>
+                    
+                    </div>
+
+                    </div>
+                </div>
+
+
+                <div class="phone">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIgAAACICAMAAAALZFNgAAAAMFBMVEXk5ueutLeqsLPV2Nnn6erh4+S2u77KztDa3d66v8Kxt7rS1dfP0tTe4OK+w8XFycsCp3H9AAADAklEQVR4nO2ay9arIAxGJQQVr+//tkdt/1N7kyT1ox2wJ10duVcIt4SqKhQKhUKhUCgUCoVC4RHmbxtUi8Hoh4W+Ddu/L2mMTezoj3rqv6LC1VCTu4Mo+tzDxFXTPWhciG1WE25fa6xhmUJGlfmdxsaQzeQxOR6D0uTRCN2hxjY8OWIypjRymSTjsZnMaA2OEo81T7Ax4eP5ssdDRbxUw7kOGRIWJch1cGacCTfigVkZYSLpFeQO2BxWBgQYEp2Gc6AsYcWUuQIam0nrQT3EhNUBAaVrq0zVhToAPHjWR8S1CBF1iqxJAhAJtUEEMYGVy+qFCBBpDR6u/hURxFnAMHsdZG39HRGLB0JEco14ApEj469MX8uChtn1hDeaPYS4j1s2PYJseoN+/naYU6teJEI8WJ+tmAuw+jbhCHFAWwjagCBWkRVpSeI/mEN8pd5uOpCG9tgKWc2ujJp0rWEauolD2Bq0eC0BF9FYnK+IY/OdiZcNTgday3YmsjSBewhNfI4aOPcJE+oydUrYHx5fCVKMeG0S4vug5GqSXFX6Nz0bijkbWKtJ1T+PD7mIrcC/UfET0S0uRF2Tt7O4c+FxmKZ6IU5zH77ZEWe+fP3v90sKofX90GwMvW9DlVlnNRjm6GifIpd/9Tz4McurheUTfq47R28b0MvGO/UBK8PcNtEJthqieoY9E1gtJBK30Ewe8HyCuRfF4t6lbk5Wefs4Ih2WeTxPhYNqTB6ZzlpvebBF48Z8xgBxm3gbIeLjuxZX0wkabi3ZfKRy8HJGzSf3HMVLgDQUrZlyeCC00BmnTzgjS++x3DLYVPJOYOi/yi+5OhN1yiLisZloYwLyWEx0eWKou4tRzJ1T148n5CUtS9Vdg7j8qi7sKhGniaH3rkNWTpIWpz5A1qk3NCH0CBpKGQLiRL2+LAGRNFBUVW67SHLPMb2bMZBc1UzdXQPJ/qftKYJBJDE26NX9RqJWr+6W2TkeGc2D1Q85ThL0frfj+Kg2UjaOszX4bODe/xYKhUKh8JJ/uEQizZPNHb4AAAAASUVORK5CYII=" alt="profile">
+                    <div>
+                        <input type="text" placeholder="0715886876">
+                        <span>  <i class="fa-solid fa-circle-info" ></i></span>
+                        
+                    </div>
+                </div>
+
+
+                <div class="phone">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIgAAACICAMAAAALZFNgAAAAMFBMVEXk5ueutLeqsLPV2Nnn6erh4+S2u77KztDa3d66v8Kxt7rS1dfP0tTe4OK+w8XFycsCp3H9AAADAklEQVR4nO2ay9arIAxGJQQVr+//tkdt/1N7kyT1ox2wJ10duVcIt4SqKhQKhUKhUCgUCoVC4RHmbxtUi8Hoh4W+Ddu/L2mMTezoj3rqv6LC1VCTu4Mo+tzDxFXTPWhciG1WE25fa6xhmUJGlfmdxsaQzeQxOR6D0uTRCN2hxjY8OWIypjRymSTjsZnMaA2OEo81T7Ax4eP5ssdDRbxUw7kOGRIWJch1cGacCTfigVkZYSLpFeQO2BxWBgQYEp2Gc6AsYcWUuQIam0nrQT3EhNUBAaVrq0zVhToAPHjWR8S1CBF1iqxJAhAJtUEEMYGVy+qFCBBpDR6u/hURxFnAMHsdZG39HRGLB0JEco14ApEj469MX8uChtn1hDeaPYS4j1s2PYJseoN+/naYU6teJEI8WJ+tmAuw+jbhCHFAWwjagCBWkRVpSeI/mEN8pd5uOpCG9tgKWc2ujJp0rWEauolD2Bq0eC0BF9FYnK+IY/OdiZcNTgday3YmsjSBewhNfI4aOPcJE+oydUrYHx5fCVKMeG0S4vug5GqSXFX6Nz0bijkbWKtJ1T+PD7mIrcC/UfET0S0uRF2Tt7O4c+FxmKZ6IU5zH77ZEWe+fP3v90sKofX90GwMvW9DlVlnNRjm6GifIpd/9Tz4McurheUTfq47R28b0MvGO/UBK8PcNtEJthqieoY9E1gtJBK30Ewe8HyCuRfF4t6lbk5Wefs4Ih2WeTxPhYNqTB6ZzlpvebBF48Z8xgBxm3gbIeLjuxZX0wkabi3ZfKRy8HJGzSf3HMVLgDQUrZlyeCC00BmnTzgjS++x3DLYVPJOYOi/yi+5OhN1yiLisZloYwLyWEx0eWKou4tRzJ1T148n5CUtS9Vdg7j8qi7sKhGniaH3rkNWTpIWpz5A1qk3NCH0CBpKGQLiRL2+LAGRNFBUVW67SHLPMb2bMZBc1UzdXQPJ/qftKYJBJDE26NX9RqJWr+6W2TkeGc2D1Q85ThL0frfj+Kg2UjaOszX4bODe/xYKhUKh8JJ/uEQizZPNHb4AAAAASUVORK5CYII=" alt="profile">
+                    <div>
+                        <input type="text" placeholder="0715886876">
+                        <span>  <i class="fa-solid fa-circle-info" ></i></span>
+                    </div>
+                </div>
+    
+                
+
+            <div class="inform">
+                <div class="recent">
+                    <span class="clock"><i class="fa fa-clock"></i></span>
+                    <h6>recents</h6>
+                </div>
+                <div class="contact">
+                    <span><i class="fa fa-user"></i></span>
+                    <h6>Contacts</h6>
+                </div>
+                <div class="myfav">
+                    <span><i class="fa fa-star"></i></span>
+                    <h6>My favorites</h6>
+                </div>
+            </div>
+            </div>
+
+    
+    
+</body>
+</html>
